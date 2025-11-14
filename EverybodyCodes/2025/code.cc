@@ -3,7 +3,12 @@
 void solve() {
     ll res = 0;
     vector<ll> inp;
-    vector<string> ss = getInp([&](auto& cin, int i) {
+    vector<string> ss = getInp([&](auto& in, int i) {
+        if(!i) {
+
+        } else if(i > 0) {
+            
+        }
         //ll _k; cin >> _k; inp.pb(_k);
         /*
         ll k; char c;
@@ -13,17 +18,6 @@ void solve() {
         } while(cin >> c);
         */
     });
-
-    /*
-    ss.pb("");
-    for(string& s : ss) {
-        if(s == "") {
-
-        } else {
-
-        }
-    }
-    */
 
     cout << res << endl;
 }
